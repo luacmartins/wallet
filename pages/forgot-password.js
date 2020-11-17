@@ -1,17 +1,17 @@
 import Head from 'next/head'
 import Layout from '../components/shared/Layout'
-import Login from '../components/forms/Login'
+import ForgotPassword from '../components/forms/ForgotPassword'
 
-export default function Index() {
+export default function ForgotPasswordPage() {
    return (
       <>
          <Head>
-            <title>Wallet - Login</title>
+            <title>Wallet</title>
             <link rel="icon" href="/icons/favicon.svg" />
          </Head>
          <Layout>
             <main className="flex-1 mt-12 md:mt-32">
-               <Login />
+               <ForgotPassword />
             </main>
          </Layout>
       </>
